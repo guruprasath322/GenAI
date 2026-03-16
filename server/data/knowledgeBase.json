@@ -1,0 +1,105 @@
+{
+  "university_name": "Global Institute of Technology",
+  "hostel_details": [
+    {
+      "type": "Single Occupancy (AC)",
+      "fee": "₹1,50,000 per year",
+      "description": "Private room with air conditioning, attached washroom, and study area."
+    },
+    {
+      "type": "Double Occupancy (AC)",
+      "fee": "₹1 30,000 per year",
+      "description": "Shared room (2 students) with air conditioning and attached washroom."
+    },
+    {
+      "type": "Double Occupancy (Non-AC)",
+      "fee": "₹90,000 per year",
+      "description": "Shared room (2 students) with common washroom facilities."
+    },
+    {
+      "type": "Triple Occupancy (Non-AC)",
+      "fee": "₹75,000 per year",
+      "description": "Shared room (3 students) with common washroom facilities. Budget-friendly option."
+    }
+  ],
+  "food_details": {
+    "mess_fee": "₹45,000 per year (included in hostel fee for some plans)",
+    "mess_type": "Pure Vegetarian (with Egg options)",
+    "menu_highlights": [
+      "Breakfast: Idli, Dosa, Poha, Paratha, Bread-Butter-Jam, Tea/Coffee",
+      "Lunch: Rice, Roti, Dal, Seasonal Vegetable, Curd, Salad",
+      "Snacks: Samosa, Kachori, Biscuits, Tea",
+      "Dinner: Rice, Roti, Special Curry, Sweet/Dessert"
+    ],
+    "timings": {
+      "breakfast": "7:30 AM - 9:00 AM",
+      "lunch": "12:30 PM - 2:00 PM",
+      "snacks": "4:30 PM - 5:30 PM",
+      "dinner": "7:30 PM - 9:00 PM"
+    }
+  },
+  "courses": [
+    {
+      "name": "Computer Science Engineering",
+      "eligibility": "Minimum 70% in PCM in 12th Grade",
+      "fees": "₹1,20,000 per year",
+      "cutoff": "85% in PCM",
+      "duration": "4 Years",
+      "description": "Focuses on computer programming, algorithms, and software design."
+    },
+    {
+      "name": "Electronics and Communication Engineering",
+      "eligibility": "Minimum 60% in PCM in 12th Grade",
+      "fees": "₹1,10,000 per year",
+      "cutoff": "80% in PCM",
+      "duration": "4 Years",
+      "description": "Deals with electronic devices, circuits, communication equipment, and systems."
+    },
+    {
+      "name": "Mechanical Engineering",
+      "eligibility": "Minimum 55% in PCM in 12th Grade",
+      "fees": "₹1,00,000 per year",
+      "cutoff": "75% in PCM",
+      "duration": "4 Years",
+      "description": "Involves the design, production, and operation of machinery."
+    },
+    {
+      "name": "Civil Engineering",
+      "eligibility": "Minimum 55% in PCM in 12th Grade",
+      "fees": "₹90,000 per year",
+      "cutoff": "70% in PCM",
+      "duration": "4 Years",
+      "description": "Professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment."
+    },
+    {
+      "name": "Master of Business Administration (MBA)",
+      "eligibility": "Bachelor's degree with 50%",
+      "fees": "₹2,00,000 per year",
+      "cutoff": "CAT/MAT Score > 70 percentile",
+      "duration": "2 Years",
+      "description": "Postgraduate degree focused on business administration and management."
+    }
+  ],
+  "important_dates": {
+    "application_start": "May 1st, 2026",
+    "application_deadline": "June 30th, 2026",
+    "entrance_exam": "July 5th, 2026",
+    "counseling_start": "July 10th, 2026",
+    "session_start": "August 1st, 2026"
+  },
+  "campus_facilities": [
+    "Modern Library with Digital Access",
+    "Advanced Laboratories",
+    "Sports Complex (Cricket, Football, Basketball, Gym)",
+    "Hostel Accommodation (Boys & Girls)",
+    "Cafeteria and Food Court",
+    "Wi-Fi Enabled Campus",
+    "Medical Center",
+    "Auditorium"
+  ],
+  "contact_info": {
+    "email": "admissions@university.edu",
+    "phone": "+91-638114801",
+    "address": "123 University Road, Knowledge City, State, 123456"
+  }
+}

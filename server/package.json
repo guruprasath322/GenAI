@@ -1,0 +1,21 @@
+{
+    "name": "university-admission-chatbot-server",
+    "version": "1.0.0",
+    "description": "Backend server for University Admission Chatbot",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@google/generative-ai": "^0.24.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "nodemon": "^3.1.0",
+        "openai": "^4.29.2"
+    }
+}
