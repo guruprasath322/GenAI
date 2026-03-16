@@ -33,6 +33,8 @@ const ChatInterface = () => {
         scrollToBottom();
     }, [messages]);
 
+    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001';
+
     const handleSendMessage = async (userMessage) => {
         // Add user message to state
         const newMessages = [...messages, { role: 'user', content: userMessage }];
@@ -50,7 +52,7 @@ const ChatInterface = () => {
                 content: msg.content
             }));
 
-            const response = await axios.post('http://localhost:5001/api/chat', {
+            const response = await axios.post(`${API_URL}/api/chat`, {
                 message: userMessage,
                 history: history
             });
