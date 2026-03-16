@@ -11,7 +11,8 @@ const AdminPanel = () => {
     const [error, setError] = useState(null);
     const [successMsg, setSuccessMsg] = useState('');
 
-    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001';
+    const rawApiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5001';
+    const API_URL = rawApiUrl.replace(/\/$/, '');
 
     const fetchDataset = async () => {
         setIsLoading(true);

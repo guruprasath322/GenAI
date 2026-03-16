@@ -33,7 +33,8 @@ const ChatInterface = () => {
         scrollToBottom();
     }, [messages]);
 
-    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001';
+    const rawApiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5001';
+    const API_URL = rawApiUrl.replace(/\/$/, '');
 
     const handleSendMessage = async (userMessage) => {
         // Add user message to state
