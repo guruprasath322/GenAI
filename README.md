@@ -14,31 +14,6 @@ A full-stack AI-powered virtual assistant designed to help students with univers
 - **Chat History**: Persistent chat history stored in the browser's local storage with the ability to clear it.
 
 ---
-
-## 📂 Project Structure
-
-```
-University Admission ChatBot/
-├── client/          # Frontend (React + Vite + Tailwind CSS)
-│   └── src/
-│       ├── components/
-│       │   ├── ChatInterface.jsx   # Main chat UI
-│       │   ├── AdminPanel.jsx      # Admin dataset editor
-│       │   ├── MessageBubble.jsx   # Chat message component
-│       │   └── InputBox.jsx        # Message input component
-│       └── App.jsx                 # Route configuration
-├── server/          # Backend (Node.js + Express)
-│   ├── routes/
-│   │   ├── chat.js                 # AI chat endpoint
-│   │   └── knowledge.js            # Dataset read/write endpoints
-│   ├── data/
-│   │   └── knowledgeBase.json      # Chatbot dataset (editable via Admin Panel)
-│   └── server.js
-└── docs/            # Detailed documentation and workflow guides
-```
-
----
-
 ## 🛠️ Quick Start
 
 ### Prerequisites
