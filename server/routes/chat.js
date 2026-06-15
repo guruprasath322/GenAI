@@ -108,19 +108,12 @@ router.post('/', async (req, res) => {
     } catch (error) {
         console.error('Error in chat endpoint:', error);
 
-        // Check for quota exceeded error or service unavailable
-        if ((error.message && (error.message.includes('429') || error.message.includes('503'))) || !model) {
-            console.warn('API Quota Exceeded or Service Unavailable. Using Mock Response.');
-            const fallbackReply = getMockResponse(req.body.message || "");
+        // Fall back to local mock/offline mode for any Gemini API errors to ensure robustness
+        console.warn('API error encountered. Using local fallback/offline mode.');
+        const fallbackReply = getMockResponse(req.body.message || "");
 
-            return res.json({
-                reply: fallbackReply + "\n\n> *[Note: System is currently using offline mode due to high traffic.]*"
-            });
-        }
-
-        res.status(500).json({
-            error: 'Failed to generate response',
-            details: error.message
+        return res.json({
+            reply: fallbackReply + "\n\n> *[Note: Chatbot is currently operating in offline mode.]*"
         });
     }
 });
